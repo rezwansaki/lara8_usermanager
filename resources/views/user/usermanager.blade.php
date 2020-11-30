@@ -3,6 +3,10 @@
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
             {{ __('User Manager') }}
         </h2>
+
+        <h2 class="font-semibold text-xl text-gray-800 leading-tight sm:text-right">
+            <a href="/usercreate" class="btn btn-info btn-sm">User Create</a>
+        </h2>
     </x-slot>
 
     <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
@@ -33,7 +37,7 @@
                     </tbody>
                 </table>
 
-                <h1></h1>
+                <!-- <h1></h1>
                 <form action="{{url('/roleassign')}}" method="post">
                     @csrf
                     <td>
@@ -43,7 +47,7 @@
                         @endforeach
                         <button class="btn btn-primary btn-sm">Assign</button>
                     </td>
-                </form>
+                </form> -->
 
             </div>
         </div>

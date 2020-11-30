@@ -12,7 +12,7 @@ class UserController extends Controller
 {
     public function userManager()
     {
-        $all_users = User::all();
+        $all_users = User::orderBy('id', 'desc')->get();
         $all_roles = Role::all();
 
         return view('user.usermanager', compact('all_users', 'all_roles'));
