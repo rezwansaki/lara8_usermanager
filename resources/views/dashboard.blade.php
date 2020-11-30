@@ -21,6 +21,7 @@
                 <div class="p-6 bg-white border-b border-gray-200">
                     <a href="/rolemanager" class="btn btn-primary btn-sm">Role Manager</a>
                     <a href="/usermanager" class="btn btn-info btn-sm">User Manager</a>
+                    <a href="/usercreate" class="btn btn-info btn-sm">User Create</a>
                 </div>
             </div>
         </div>

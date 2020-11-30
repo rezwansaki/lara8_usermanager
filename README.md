@@ -1,3 +1,20 @@
+## Instruction:
+<ul>
+    <li>1. Creating a Database 'usermanager' in your database server</li>
+    <li>2. php artisan storage:link</li>
+    <li>3. composer update</li>
+    <li>4. 'npm install' and then 'npm run dev'</li>
+    <li>5. copy the file .env.example and rename into .env, then give information of database, server and create app key by 'php artisan key:gen' the save the file</li>
+    <li>6. artisan migrate</li>
+    <li>7. php artisan serve</li> 
+</ul>
+
+## User Manager - Laravel 8 Project
+
+This is a Laravel 8 project, which is for controlling the user role. User can create a new user and then edit and delete user. can create any role and assign any role to any user and also update and delete role. I use two packages, breeze and spatie. I can create a user interface to do everthing easily. 
+
+
+    
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">

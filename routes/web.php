@@ -29,3 +29,5 @@ Route::post('/roleassign', [UserController::class, 'roleAssign']);
 Route::get('/user/edit/{id}', [UserController::class, 'userEdit']);
 Route::post('/user/update/{id}', [UserController::class, 'userUpdate']);
 Route::get('/user/delete/{id}', [UserController::class, 'userDelete']);
+Route::get('/usercreate', [UserController::class, 'userCreate']);
+Route::post('/usercreatedone', [UserController::class, 'userCreatedone']);

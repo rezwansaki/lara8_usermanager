@@ -23,7 +23,17 @@
                             <input type="input" class="form-control" name="email" value="{{$user->email}}">
                         </div>
 
-                        <button type="submit" class="btn btn-primary btn-sm">Update</button>
+                        @foreach($allRoles as $role)
+                        <div class="checkbox">
+                            <label>
+                                <input class="form-check-input" type="checkbox" name="role[]" value="{{$role->id}}" {{in_array($role->id, $assignedRoles) ? 'checked' : ''}}>
+                                {{$role->name}}
+                            </label>
+                        </div>
+                        @endforeach
+
+                        <br />
+                        <button class="btn btn-primary btn-sm">Update</button>
                     </form>
 
                 </div>
