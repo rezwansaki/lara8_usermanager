@@ -5,12 +5,13 @@ This is a Laravel 8 project, which is for controlling the user role. User can cr
 ## Instruction:
 <ul>
     <li>1. Creating a Database 'usermanager' in your database server</li>
-    <li>2. php artisan storage:link</li>
-    <li>3. composer update</li>
-    <li>4. 'npm install' and then 'npm run dev'</li>
-    <li>5. copy the file .env.example and rename into .env, then give information of database, server and create app key by 'php artisan key:gen' the save the file</li>
-    <li>6. php artisan migrate</li>
-    <li>7. php artisan serve</li> 
+    <li>2. composer update</li>
+    <li>3. 'npm install' and then 'npm run dev'</li>
+    <li>4. php artisan storage:link</li>
+    <li>5. copy the file .env.example and rename into .env, then give information of database server.</li>
+    <li>6. create app key by 'php artisan key:gen' </li>
+    <li>7. php artisan migrate</li>
+    <li>8. php artisan serve</li> 
 </ul>
 
     
